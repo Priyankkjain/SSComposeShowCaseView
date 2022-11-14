@@ -1,8 +1,10 @@
 package com.sscomposeshowcaseview
 
+import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.LayoutCoordinates
 
+@Stable
 data class ShowcaseProperty(
     val index: Int,
     val coordinates: LayoutCoordinates,
